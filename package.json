@@ -1,0 +1,15 @@
+{
+  "name": "typescript-webpack-starter",
+  "version": "1.0.0",
+  "description": "A starter for typescript using webpack",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
