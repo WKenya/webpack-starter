@@ -3,7 +3,9 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const webpack = require("webpack");
 
 module.exports = {
-    entry: './src/main.ts',
+    entry: {
+        index: './src/main.ts'
+    },
     module: {
         rules: [
             {
@@ -40,5 +42,6 @@ module.exports = {
     output: {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist')
-    }
+    },
+    mode: 'production'
 };
