@@ -1,4 +1,5 @@
 import "./main.scss";
+import "./index.html";
 
 function helloWorld(): void 
 {
