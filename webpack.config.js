@@ -4,7 +4,7 @@ const webpack = require("webpack");
 
 module.exports = {
     entry: {
-        index: './src/main.ts'
+        bundle: './src/main.ts'
     },
     module: {
         rules: [
@@ -17,7 +17,7 @@ module.exports = {
                 test: /\.(html)$/,
                 use: {
                     loader: 'file-loader',
-                    options: 
+                    options:
                     {
                         name: '[name].[ext]'
                     }
@@ -46,12 +46,15 @@ module.exports = {
             jQuery: "jquery"
         })
     ],
-    resolve: {
+    resolve:
+    {
         extensions: ['.tsx', '.ts', '.js']
     },
-    output: {
-        filename: 'main.js',
-        path: path.resolve(__dirname, 'dist')
+    output:
+    {
+        filename: '[name].js',
+        path: path.resolve(__dirname, 'dist'),
+        chunkFilename: '[id].[chunkhash].js'
     },
     mode: 'production'
 };
