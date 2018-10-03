@@ -1,9 +1,12 @@
-import './index.html';
-import './styles.scss';
+import './entry';
 
-function helloWorld(): void 
+class Main
 {
-    console.log("hello world");
+    public helloWorld(): void
+    {
+        console.log("Hello World");
+    }
 }
 
-helloWorld();
+let main = new Main();
+main.helloWorld();
