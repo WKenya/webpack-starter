@@ -1,7 +1,7 @@
 {
-  "name": "typescript-webpack-starter",
+  "name": "webpack-starter",
   "version": "1.0.0",
-  "description": "A starter for typescript using webpack",
+  "description": "A starter web site using Typescript and powered by webpack.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bundle": "npx webpack"
