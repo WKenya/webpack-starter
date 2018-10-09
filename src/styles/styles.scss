@@ -1,1 +1,7 @@
-@import "~bootstrap/scss/bootstrap";
+.background {
+    background-image: url("../assets/Lynx.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%
+}
