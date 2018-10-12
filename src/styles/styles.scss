@@ -7,6 +7,11 @@
     background-size: cover;
 }
 
+.navbar {
+    background: #333;
+    border-radius: 10px
+}
+
 /*
  * Globals
  */
@@ -56,6 +61,7 @@ body {
  */
 
 .masthead {
+    color: rgba(255, 255, 255, .5);
     margin-bottom: 2rem;
 }
 
