@@ -9,10 +9,6 @@ Webpack is completely configured for Typescript, Sass, and extra files.
 
 - `git clone {repository url}`
 - `cd webpack-starter`
-<<<<<<< HEAD
 - `npm run start:dev` 
-=======
-- `npm run bundle` 
->>>>>>> 2bb03c9848650f0a316929927ce7f7369ceae54a
 - Navigate to url of hosted site
 - Edit and change project to whatever you want!
