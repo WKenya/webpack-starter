@@ -5,7 +5,8 @@
   "scripts": {
     "start:dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bundle": "npx webpack"
+    "bundle": "npx webpack",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'"
   },
   "author": "",
   "license": "MIT",
@@ -17,12 +18,14 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "ts-loader": "^5.2.1",
+    "tslint": "^5.11.0",
     "typescript": "^3.1.1",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.9"
   },
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "tslint": "^5.11.0"
   }
 }
