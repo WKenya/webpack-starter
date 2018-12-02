@@ -1,12 +1,12 @@
-import './entry';
+import "./entry";
 
 class Main
 {
     public helloWorld(): void
     {
-        console.log("Hello World");
+        // console.log("Hello World");
     }
 }
 
-let main = new Main();
+const main = new Main();
 main.helloWorld();

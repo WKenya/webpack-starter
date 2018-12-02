@@ -1,3 +1,3 @@
-import './index.html';
-import './styles/styles.scss';
-import './assets/Lynx.jpg';
+import "./assets/Lynx.jpg";
+import "./index.html";
+import "./styles/styles.scss";
